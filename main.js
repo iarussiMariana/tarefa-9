@@ -1,5 +1,5 @@
 function alterarTitulo() {
-    document.getElementById("titulo").textContent = "Novo Titulo"; 
+    document.getElementById("titulo").textContent = "Stray Kids"; 
 }
 
 function alterarImagem() {
