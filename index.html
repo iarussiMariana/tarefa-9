@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 9</title>
+
+    <style>
+        .ativo{
+            background-color: rgb(196, 43, 43);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 20px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 25px;
+        }
+
+        .estilo {
+            background-color: rgb(49, 185, 49);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 20px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 25px;
+        }
+
+        .botao {
+            margin: 15px;
+            font-size: 25px;
+            border-radius: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="div1"> 
+        <h1 id="titulo"> Meu Título </h1>
+
+        <p id="paragrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possims eum, at ducimus aliquam delectus hic</p>
+
+        <img id="imagem" src="img/red.jpg" alt="">
+
+        <button onclick="alterarImagem()" class="estilo"> Alterar imagem </button>
+
+    </div>
+
+    <div class="div2">
+        <button onclick="alterarTitulo()" class="estilo"> Título </button>
+
+        <button onclick="alterarParagrafo()" class="estilo"> Parágrafo </button> 
+
+        <audio id="audio" src="audio/Coin mario.wav" class="estilo"></audio>
+
+        <button onclick="tocarAudio()" class="estilo"> Áudio </button>
+    </div>
+
+    <button onclick="toggleClass()" class="botao"> Altera buttons </button>
+
+    <button onclick="" class="botao"> Btn 2 </button>
+
+    <button onclick="" class="botao"> Btn 3 </button>
+
+    <script src="main.js"></script>
+</body>
+</html>
